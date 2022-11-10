@@ -1,0 +1,8 @@
+LIBRARY BOrchestra180
+EXPORTS
+	ModuleName=ProgramPak_GetName
+	AssertInterupt=ProgramPak_SetAssertInteruptCallback
+	ModuleReset=ProgramPak_Reset
+	PackPortWrite=ProgramPak_WritePort
+	PackPortRead=ProgramPak_ReadPort
+	ModuleAudioSample=ProgramPak_QueryAudioSample
